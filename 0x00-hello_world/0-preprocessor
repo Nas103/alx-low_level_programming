@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -E $input_CFILE -O $output_CFLIE
+gcc -E $input_$CFILE -O $output_$CFLIE

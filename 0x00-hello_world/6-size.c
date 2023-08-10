@@ -2,7 +2,7 @@
 /**
  * main - Code that executes various types
  *
- * Return: 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {

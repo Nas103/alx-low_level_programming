@@ -10,12 +10,6 @@
  */
 int main(void)
 {
-int number = 0;
-while (number <= 9)
-{
-putchar(number + '0');
-putchar('\n');
-number++;
-}
+printf("0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n");
 return (0);
 }

@@ -8,15 +8,12 @@
  */
 int main(void)
 {
-char hex_digit;
-for (hex_digit = '0'; hex_digit <= '9'; hex_digit++)
-{
-putchar(hex_digit);
-}
-for (hex_digit = 'a'; hex_digit <= 'f'; hex_digit++)
-{
-putchar(hex_digit);
-}
+int d;
+char low;
+for (d = '0'; d <= '9'; d++)
+putchar(d);
+for (low = 'a'; low <= 'f'; low++)
+putchar(low);
 putchar('\n');
 return (0);
 }

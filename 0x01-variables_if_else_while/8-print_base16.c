@@ -8,17 +8,14 @@
  */
 int main(void)
 {
-int number = 0;
-while (number < 10)
+char hex_digit;
+for (hex_digit = '0'; hex_digit <= '9'; hex_digit++)
 {
-putchar(number + '0');
-number++;
+putchar(hex_digit);
 }
-char letter = 'a';
-while (letter <= 'f')
+for (hex_digit = 'a'; hex_digit <= 'f'; hex_digit++)
 {
-putchar(letter);
-letter++;
+putchar(hex_digit);
 }
 putchar('\n');
 return (0);

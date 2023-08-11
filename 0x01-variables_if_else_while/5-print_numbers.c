@@ -10,6 +10,10 @@
  */
 int main(void)
 {
-printf("0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n");
-return (0);
+int number;
+for (number = 0; number <= 9; number++)
+{
+printf("%d\n", number);
+}
+return 0;
 }

@@ -10,26 +10,17 @@
 int main(void)
 
 {
-	unsigned long long number = 612852475143;
-	unsigned long long longestPrime = 0;
+	long b, maxf;
+	long number = 612852475143;
+	double square = sqrt(number);
 
-	while (number % 2 == 0)
+	for (b = 1; b <= square; b++)
 	{
-		longestPrime = 2;
-		number /= 2;
-	}
-	for (unsigned long long i = 3; i <= sqrt(number); i += 2)
+	if (number % b == 0)
 	{
-		while (number % i == 0)
-		{
-			longesttPrime = i;
-			number /= i;
-		}
+	maxf = number / b;
 	}
-	if (number >  2)
-	{
-		longestPrime = i;
 	}
-	printf("%llu\n", longestPrime);
+	printf("%ld\n", maxf);
 	return (0);
 }

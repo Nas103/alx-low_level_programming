@@ -1,9 +1,10 @@
 #include "main.h"
+#include <unistd.h>
 
 /**
  * print_chessboard - entry level
  * @a: array
- * Return: 0 (Success)
+ * Return: void
  */
 void print_chessboard(char (*a)[8])
 {
@@ -12,7 +13,9 @@ void print_chessboard(char (*a)[8])
 	for (i = 0; i < 8; i++)
 	{
 		for (n = 0; n < 8; n++)
+		{
 			_putchar(a[i][n]);
+		}
 		_putchar('\n');
 	}
 }

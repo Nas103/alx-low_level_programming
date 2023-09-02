@@ -2,10 +2,11 @@
 #include "main.h"
 
 /**
- * _atoi - converts a string to an integer
- * @s: string to be converted
+ * main - prints the multiples of two args
+ * @argc: argument counter
+ * @argv: argumant vector
  *
- * Return: the int converted from the string
+ * Return: 0
  */
 int main(int argc, char *argv[])
 {
